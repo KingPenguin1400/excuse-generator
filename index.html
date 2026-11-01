@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator Deluxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="curtain-overlay"></div>
+    
+    <main class="container">
+        <header>
+            <h1>Excuse Generator <span class="deluxe">Deluxe</span></h1>
+            <p class="subtitle">The Art of the Convenient Lie</p>
+        </header>
+
+        <section class="controls">
+            <div class="input-group">
+                <label>Situation</label>
+                <select id="situation">
+                    <option value="late to work">Late to Work</option>
+                    <option value="missed a deadline">Missed a Deadline</option>
+                    <option value="skipped the group chat">Skipped the Group Chat</option>
+                    <option value="forgot a birthday">Forgot a Birthday</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Audience</label>
+                <select id="audience">
+                    <option value="boss">The Boss</option>
+                    <option value="friend">A Friend</option>
+                    <option value="teacher">A Teacher</option>
+                    <option value="family">Family</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Tone</label>
+                <select id="tone">
+                    <option value="Professional">Professional</option>
+                    <option value="Dramatic">Dramatic</option>
+                    <option value="Medieval">Medieval</option>
+                    <option value="Corporate">Corporate</option>
+                    <option value="Conspiracy">Conspiracy</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Spice Level: <span id="spice-val">50</span>%</label>
+                <input type="range" id="spice" min="0" max="100" value="50">
+            </div>
+        </section>
+
+        <button id="generate-btn" class="main-btn">GENERATE EXCUSE</button>
+
+        <section class="result-area">
+            <div id="excuse-display" class="excuse-text">
+                Click the button to generate your masterpiece...
+            </div>
+
+            <div class="meters">
+                <div class="meter-card">
+                    <span class="label">Believability</span>
+                    <div class="bar-container"><div id="meter-belief" class="bar"></div></div>
+                    <div id="stamp-belief" class="stamp"></div>
+                </div>
+                <div class="meter-card">
+                    <span class="label">Chaos</span>
+                    <div class="bar-container"><div id="meter-chaos" class="bar"></div></div>
+                    <div id="stamp-chaos" class="stamp"></div>
+                </div>
+                <div class="meter-card">
+                    <span class="label">Follow-up Risk</span>
+                    <div class="bar-container"><div id="meter-risk" class="bar"></div></div>
+                    <div id="stamp-risk" class="stamp"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="actions">
+            <button id="reroll-btn" class="sub-btn">Reroll</button>
+            <button id="copy-btn" class="sub-btn">Copy</button>
+            <button id="save-btn" class="sub-btn">Save .txt</button>
+            <button id="share-btn" class="sub-btn">Share</button>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; margin: 20px; font-size: 0.9em; color: #555;">
+        For fun only.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

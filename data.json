@@ -1,0 +1,64 @@
+{
+  "templates": [
+    "I am so incredibly sorry, but I couldn't [ACTION] because [REASON].",
+    "Please forgive my [MISTAKE]. A [a/an_OBJECT] was [VERB] in my [LOCATION].",
+    "I would have [ACTION] sooner, but [REASON] prevented me from proceeding.",
+    "My sincerest apologies for [MISTAKE]. It appears that [REASON] has occurred.",
+    "I apologize for the delay; I was unfortunately [VERB] by a [a/an_OBJECT] in the [LOCATION].",
+    "I missed the [ACTION] because I was currently engaged in [REASON].",
+    "I couldn't [ACTION] because my [a/an_OBJECT] decided to [VERB] unexpectedly.",
+    "Please excuse my [MISTAKE]. My [LOCATION] has been compromised by [REASON].",
+    "I am unable to [ACTION] due to [REASON]. It is a matter of [a/an_OBJECT] survival.",
+    "I regret to inform you that [MISTAKE] was caused by [REASON].",
+    "I was going to [ACTION], but then [REASON] happened, and I had to [VERB].",
+    "The [MISTAKE] was not my fault; a [a/an_OBJECT] was [VERB] in the [LOCATION].",
+    "I missed [ACTION] because I was busy [VERB] a [a/an_OBJECT].",
+    "Regarding the [MISTAKE]: [REASON] made it impossible to continue.",
+    "I am currently [VERB] because of [REASON], so I cannot [ACTION]."
+  ],
+  "wordBanks": {
+    "actions": [
+      "show up on time", "finish the report", "reply to the group chat", "send the gift",
+      "attend the meeting", "submit the assignment", "make the dinner", "call you back",
+      "deliver the package", "respond to your text", "complete the task", "be present",
+      "notify the team", "provide the update", "join the call"
+    ],
+    "reasons": [
+      "my alarm failed", "the internet went down", "I caught a slight cold", "heavy traffic",
+      "a sudden power outage", "a family emergency", "my car wouldn't start", "I lost my keys",
+      "I was stuck in a meeting", "I had a plumbing disaster", "my pet escaped", "I was napping",
+      "a localized earthquake", "I forgot my password", "the WiFi was spotty"
+    ],
+    "absurd_reasons": [
+      "a portal to the underworld opened", "a swarm of bees took my keys", "I was kidnapped by aliens",
+      "a dragon blocked the main road", "I was fighting a rogue ghost", "my toaster became sentient",
+      "I was recruited for a secret mission", "a time loop trapped me in the kitchen",
+      "I was participating in a ritual", "my cat staged a coup", "gravity briefly failed",
+      "I was chased by a mime", "the moon looked hungry", "I was drafted into a wizard war",
+      "a localized black hole appeared"
+    ],
+    "mistakes": [
+      "tardiness", "absence", "silence", "failure", "oversight",
+      "disappearance", "inactivity", "forgetfulness", "delay",
+      "non-compliance", "ghosting", "negligence", "lapse in judgment",
+      "technical difficulties", "miscommunication"
+    ],
+    "objects": [
+      "mystic orb", "sentient toaster", "leaking radiator", "ghost",
+      "teleporter", "time machine", "magical artifact", "carrier pigeon",
+      "quantum stabilizer", "forbidden scroll", "hover-scooter", "hyper-wrench",
+      "laser-grid", "gravity-well", "secret-door"
+    ],
+    "verbs": [
+      "exploding", "vanishing", "singing", "reprogramming", "haunting",
+      "teleporting", "manifesting", "self-destructing", "rebooting",
+      "evolving", "transmuting", "orbiting", "glitching", "reincarnating",
+      "supercharging"
+    ],
+    "locations": [
+      "kitchen", "basement", "garage", "office", "bedroom",
+      "attic", "garden", "hallway", "secret bunker", "dimension X",
+      "the void", "the shed", "the lab", "the backyard", "the theater"
+    ]
+  }
+}
